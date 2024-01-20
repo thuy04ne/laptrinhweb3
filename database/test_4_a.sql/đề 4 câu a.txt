@@ -1,0 +1,4 @@
+SELECT user_id, user_name, user_email
+FROM users
+WHERE user_email LIKE '%@gmail.com' AND (user_name LIKE '%i%' OR user_name LIKE '%m')
+ORDER BY user_email ASC;
